@@ -20,20 +20,20 @@
       </button>
 
       <button
-        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-sky-400"
-        onclick="window.open('file:///C:/Users/lyfes/OneDrive/Documents/Coding/JS/index.html','_blank')"
+        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-white"
+        onclick="window.location.href='https://hololive.hololivepro.com/en'"
       >
         Home
       </button>
 
       <button
-        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-sky-400"
+        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-white"
         onclick="window.location.href='https://hololive.hololivepro.com/en/talents'"
       >
         Talents
       </button>
       <button
-        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-sky-400"
+        class="my-auto h-10 w-20 rounded-full outline outline-2 outline-offset-2 outline-black transition-all duration-150 ease-linear hover:-translate-y-2 hover:scale-110 hover:rounded-2xl hover:bg-sky-400 hover:shadow-2xl hover:drop-shadow-xl focus:outline-none focus:ring focus:ring-white"
       >
         Settings
       </button>
@@ -41,7 +41,7 @@
       <form class="rounded-xl shadow-2xl">
         <div class="absolute top-7 right-5">
           <input
-            class="my-auto h-8 rounded-lg border-2 border-blue-200 bg-white p-2 hover:bg-slate-300"
+            class="my-auto h-8 rounded-lg border-2 border-blue-200 bg-white p-2 hover:bg-slate-300 italic"
             id="search"
             type="text"
             placeholder=" Search"
@@ -58,23 +58,19 @@
     ></div>
 
     <div class="relative box-border h-auto w-full p-6">
-      <div>
-        <img
-          class="peer absolute left-48 top-5 mx-auto scale-75 opacity-100"
-          src="./img/fes4-hololive.jpg"
-          alt="Hololive 4th fes. Our Bright Parade"
-        />
-      </div>
-      <div>
-        <img
-          class="mx-auto scale-75 opacity-100 transition-all ease-out hover:scale-110 hover:opacity-0 hover:duration-300"
-          src="./img/fes4-hololive.jpg"
-          alt="Hololive 4th fes. Our Bright Parade"
-        />
-      </div>
+      <img
+        class="peer absolute top-6 left-40 z-10 mx-auto scale-75 opacity-100"
+        src="./img/fes4-hololive.jpg"
+        alt="Hololive 4th fes. Our Bright Parade"
+      />
+      <img
+        class="z-0 mx-auto scale-75 opacity-100 transition hover:duration-150 peer-hover:scale-125 peer-hover:opacity-0"
+        src="./img/fes4-hololive.jpg"
+        alt="Hololive 4th fes. Our Bright Parade"
+      />
 
       <h1
-        class="group m-auto w-2/3 text-center text-6xl font-bold text-sky-400 transition-all ease-linear hover:-translate-y-4 hover:scale-110 hover:text-blue-400 hover:duration-200 peer-hover:opacity-100"
+        class="group m-auto w-2/3 text-center text-5xl font-bold text-sky-400 transition-all ease-linear hover:-translate-y-4 hover:scale-110 hover:text-blue-400 hover:duration-200 peer-hover:opacity-100"
       >
         <img
           class="ml-auto mb-3 opacity-0 transition-all group-hover:opacity-100"
@@ -82,7 +78,7 @@
         />
         Hololive 4th fes. Our Bright Parade
         <img
-          class="mb-3 opacity-0 transition-all group-hover:opacity-100"
+          class="mt-3 opacity-0 transition-all group-hover:opacity-100"
           src="./img/stars.png"
         />
       </h1>
@@ -97,7 +93,10 @@
       </p>
     </div>
 
-    <div class="flex flex-col text-center">
+    <div
+      class="flex flex-col bg-opacity-0 bg-cover bg-fixed text-center"
+      style="background-image: url(./img/centerbg.png)"
+    >
       <div
         class="mx-5 mt-8 box-border flex h-auto w-full flex-row border-y-2 border-black p-1"
       >
